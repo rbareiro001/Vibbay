@@ -1,0 +1,75 @@
+
+/* 
+    Created on : 19-nov-2016, 2:09:42
+    Author     : Rx
+*/
+
+body{
+    background-color: #FF0000;
+}
+
+#cab1{
+    background-color: #00FFFF;
+    padding: 20px 20px 20px 20px;
+    width: 1300px;
+    height: 75px;
+    float: right;
+}
+#lateral{
+    background-color: #00FFFF;
+    padding: 20px 20px 20px 20px;
+    width: 250px;
+    height: 480px;
+    float: right;
+}
+.posicionLogodrch{
+    float:right;
+    padding: 0px 550px 20px 20px;
+}
+.colortexto{
+    color:white;
+    font-style:oblique;
+    font-size: "60" ;
+    font-family: verdana;
+    padding-left: 320px;
+    padding-top: 10px;
+}
+#picture{
+    float:right;
+}
+
+li{
+    display: inline;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+}
+
+li a{
+    padding: 2px 7px 0px 0px;
+    color: #666;
+    background-color: white;
+    border-right: 1px solid black;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+#flotante_login{
+    width:400px;
+    height:300px;
+    position:fixed;
+    top:180px;
+    left:45%;
+    padding: 20px;
+    display: none;
+    border:1px solid #d7d7d7;
+    box-shadow:1px 1px 4px #b1b1b1;
+}
